@@ -1,0 +1,172 @@
+#car
+    {
+         /* border: 1px solid black;  */
+        /* background-color: red;*/
+        width: 100px; 
+        position: absolute;
+         height: 80px; 
+        left: 0px;  
+        transition: transform 1s;
+        bottom: 0px;
+         /* animation-name: carmove;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;  */
+    }
+    
+     /* @keyframes carmove{
+        0% {left: 0px; }
+        5% {left: 100px; }
+        25% {left: 200px; }
+        50% {left: 300px; }
+        75% {left: 400px; }
+        95% {left: 500px; }
+        100% {left: 0px; }
+    }   */
+    /* body{
+        max-width: 1200px;
+    } */
+    #top
+    {
+        width: 70px;
+        height: 50px;
+        background-color: red;
+        position: absolute;
+        border-radius: 0px;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 20px;
+        top: 15px;
+        left:19px;
+        
+    }
+     #back
+    {
+        width: 20px;
+        height: 15px;
+        border-top-right-radius : 5px;
+        border-top-left-radius : 5px;
+        background-color: red;
+        position: absolute;
+        top: 50px;
+        left: 15px;
+        
+    }
+    #front
+    {
+        width: 20px;
+        height: 15px;
+        border-top-right-radius : 5px;
+        border-top-left-radius : 5px;
+        background-color: red;
+        border-bottom-right-radius: 5px;
+        position: absolute;
+        top: 50px;
+        right: 8px;
+        
+    }
+    #wheel1
+    {
+        color: white;   
+        width: 15px;
+        height: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 8px;
+        left: 70px;
+        top: 59px;  
+        transform: rotate(360deg);
+        
+    }
+    #wheel2
+    {
+        width: 15px;
+        height: 15px;
+        background-color: black;
+        position: absolute;
+        border-radius: 8px;
+        left: 125px;
+        bottom: 2px;
+        transform: rotate(360deg);
+        top: 59px;
+        left: 20px;
+        
+    }
+    #windowf
+    {
+        border: 1px solid black;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+       
+        bottom: 30px;
+        position: absolute;
+        left: 65px;
+        
+    } 
+    #windowb
+    {
+        border: 1px solid black;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        bottom: 30px;
+        position: absolute;
+        left: 35px;
+        
+    } 
+
+    #stop,#fast,#slow{
+        width: 70px;
+        height: 70px; 
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    #demo{
+        width: 220px;
+        height: auto; 
+        padding: 10px;
+        position: absolute;
+        left: 100px;
+        top: 10%;
+        text-align: center;
+        margin: 5px;
+
+    }
+    #rever{
+        width: 220px;
+        height: auto; 
+        padding: 10px;
+        position: absolute;
+        right: 100px;
+        top: 10%;
+        text-align: center;
+        margin: 5px;
+
+    }
+    #header
+    {
+        border: 1px solid black;
+        width: 100%;
+        height: 400px;
+        position: relative;
+       
+        background: url('/nighttravel.png');
+        background-size: cover;
+        overflow-x: hidden;
+    }
+    .road{
+        border: 1px solid grey;
+        position: absolute;
+        background-color: grey;  
+        bottom: 0px;
+        width: inherit;
+        height: 100px;
+        opacity: 0.9;
+        border-radius: 5px;
+        /* animation: roadanim 5s linear infinite; */
+        background-repeat: repeat-x;
+        
+    }
+    /* @keyframes roadanim{
+        100%{ transform: translateX(-1000px);}
+    } */
