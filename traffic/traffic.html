@@ -36,8 +36,9 @@
     </div>
 </div>
     <br>
-    <table align="center" style="height: 100px;width: 50px; border: 1px solid black;background-color: lightgray;">
+    <table >
         <tr>
+                
             <td><button id="stop"  onclick="stop()">STOP</button></td>
             <td><button id="slow"  onclick="slowspeed()">SLOW</button></td>
             <td><button id="fast"  onclick="move()">GO</button></td>
@@ -46,6 +47,7 @@
         </table>
         <script>
         var pos=0;
+       
         var max=1200;
             var movetimer,stoptimer;
         function move()
@@ -86,6 +88,7 @@
             document.getElementById("slow").style="background-color: grey";
 
         clearTimeout(movetimer);
+        clearTimeout(stoptimer);
        
         
         /*document.getElementById("demo").innerHTML="Dont move when you r on stop";*/
@@ -116,8 +119,7 @@
         //     if(pos==0){
         //         clearTimeout(reversetimer);
         //     }
-        //     }
-            
+        //     
         
         
         </script>
