@@ -149,9 +149,8 @@
         width: 100%;
         height: 400px;
         position: relative;
-       
         background: url('/nighttravel.png');
-        background-size: cover;
+        background-size: cover  ;
         overflow-x: hidden;
     }
     .road{
@@ -167,6 +166,15 @@
         background-repeat: repeat-x;
         
     }
+    table{
+        box-align:center;
+        height: 100px;
+        width: 50px; 
+        border: 1px solid black;
+        background-color: black;
+        position: absolute;
+        bottom: 54%;
+    left: 50%;}
     /* @keyframes roadanim{
         100%{ transform: translateX(-1000px);}
     } */
